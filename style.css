@@ -1,0 +1,83 @@
+/* CAPAS DAS MÚSICAS */
+.capa-musica {
+  width: 70%;
+  max-height: 200px;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.capa-carrossel {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid #c1121f;
+}
+
+body {
+  background-color: #fff;
+  color: #212529;
+  font-family: Arial, sans-serif;
+}
+
+h2, h4 {
+  font-weight: 700;
+  color: #6a040f;
+}
+
+/* NAVBAR & FOOTER */
+.navbar, footer {
+  background-color: #6a040f !important;
+}
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  color: #ff0015 !important;
+}
+
+/* BOTÕES */
+.btn-primary {
+  background-color: #c1121f;
+  border-color: #ff0011;
+}
+
+.btn-primary:hover {
+  background-color: #e63946;
+  border-color: #e63946;
+}
+
+/* LISTAS DE MÚSICAS */
+.list-group-item {
+  border: none;
+  border-bottom: 1px solid #ddd;
+}
+
+.list-group-item strong {
+  color: #c1121f;
+}
+
+.list-group-item audio {
+  width: 50%;
+  height: 32px;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa;
+  cursor: pointer;
+}
+
+/* CARROSSEIS */
+.capa-carrossel {
+  width: 100%;
+  height: 300px; /* altura fixa */
+  object-fit: cover;
+  border-radius: 10px;
+  border: 3px solid #c1121f;
+}
+
+/* Espaço entre listas e os carrosséis */
+.carousel {
+  margin-top: 0; /* não força margem em todos */
+}

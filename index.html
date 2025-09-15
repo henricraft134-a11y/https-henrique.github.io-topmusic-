@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Music</title> <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/icones/icone_logo.png" type="image/png">
+
+</head>
+
+<body> <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+    <div class="container"> <a class="navbar-brand fw-bold" href="#">🎵 Top Music</a> <button class="navbar-toggler"
+        type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"> <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#home">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#estilos">Mais Acessadas</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="bg-dark text-light text-center p-5">
+    <div class="container">
+      <h1 class="display-4">🎧 O que vai ouvir agora?</h1>
+      <p class="lead">Descubra as músicas mais acessadas no momento</p> <a href="#estilos"
+        class="btn btn-primary btn-lg">Explorar</a>
+    </div>
+  </section> <!-- Estilos (Músicas + Carrosséis) -->
+  <section id="estilos" class="py-5">
+    <div class="container">
+      <!-- Primeira linha: Mais acessadas -->
+      <div class="row mb-5 align-items-start">
+        <!-- Coluna esquerda -->
+        <div class="col-md-7">
+          <h4 class="mb-3">🔥 Mais acessadas</h4>
+          <ul class="list-group mb-4">
+            <!-- Música 1 -->
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span data-bs-toggle="collapse" data-bs-target="#detalhe1" style="cursor:pointer;">
+                <strong>1.</strong> Wild Eyes – Henrique
+              </span>
+              <audio controls>
+                <source src="audio/Olhos Selvagens_img01.mp3" type="audio/mpeg">
+              </audio>
+            </li>
+            <div class="collapse mt-3" id="detalhe1">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="img/img01.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-8">
+                  <h5>Letra da Música</h5>
+                  <p>Aqui entra a letra de <strong>Wild Eyes</strong>.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Música 2 -->
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span data-bs-toggle="collapse" data-bs-target="#detalhe2" style="cursor:pointer;">
+                <strong>2.</strong> Última Luz do Dia – Henrique
+              </span>
+              <audio controls>
+                <source src="audio/Última Luz do Dia_img02.mp3" type="audio/mpeg">
+              </audio>
+            </li>
+            <div class="collapse mt-3" id="detalhe2">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="img/img02.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-8">
+                  <h5>Letra da Música</h5>
+                  <p>Aqui entra a letra de <strong>Última Luz do Dia</strong>.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Música 3 -->
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span data-bs-toggle="collapse" data-bs-target="#detalhe3" style="cursor:pointer;">
+                <strong>3.</strong> Laços do Tempo – Henrique
+              </span>
+              <audio controls>
+                <source src="audio/Laços do Tempo_img03.mp3" type="audio/mpeg">
+              </audio>
+            </li>
+            <div class="collapse mt-3" id="detalhe3">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="img/img03.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-8">
+                  <h5>Letra da Música</h5>
+                  <p>
+                    <strong>[Verso]</strong><br>
+                    Na mesa pequena cabia o mundo<br>
+                    Risadas ecoavam num segundo<br>
+                    Chuva na janela<br>
+                    Histórias no ar<br>
+                    Um abraço forte pra nunca soltar<br><br>
+
+                    <strong>[Pré-refrão]</strong><br>
+                    Dias de luz e de sombra também<br>
+                    Cicatrizes que contam o que vem<br><br>
+
+                    <strong>[Refrão]</strong><br>
+                    Juntos somos mais<br>
+                    Laços do tempo<br>
+                    Amor que segura até o firmamento<br>
+                    Se caímos<br>
+                    Levantamos<br>
+                    Se choramos<br>
+                    Abraçamos<br>
+                    Laços do tempo<br>
+                    Nunca quebramos<br><br>
+
+                    <strong>[Verso 2]</strong><br>
+                    O velho sofá guardou segredos<br>
+                    Brigas pequenas<br>
+                    Mas grandes medos<br>
+                    Fotos amareladas<br>
+                    Sorrisos no chão<br>
+                    Cada detalhe<br>
+                    Uma lição<br><br>
+
+                    <strong>[Pré-refrão]</strong><br>
+                    Dias de dor e de riso também<br>
+                    Histórias que o coração retém<br><br>
+
+                    <strong>[Refrão]</strong><br>
+                    Juntos somos mais<br>
+                    Laços do tempo<br>
+                    Amor que segura até o firmamento<br>
+                    Se caímos<br>
+                    Levantamos<br>
+                    Se choramos<br>
+                    Abraçamos<br>
+                    Laços do tempo<br>
+                    Nunca quebramos<br>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Música 4 -->
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span data-bs-toggle="collapse" data-bs-target="#detalhe4" style="cursor:pointer;">
+                <strong>4.</strong> No Topo Estaremos Juntas – Henrique
+              </span>
+              <audio controls>
+                <source src="audio/No Topo Estaremos Juntas_img04.mp3" type="audio/mpeg">
+              </audio>
+            </li>
+            <div class="collapse mt-3" id="detalhe4">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="img/img04.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-8">
+                  <h5>Letra da Música</h5>
+                  <p>
+                    <strong>[Verso]</strong><br>
+                    O vento canta histórias antigas<br>
+                    Nos vales e nas montanhas frias<br>
+                    O chão é duro<br>
+                    Mas o coração é leve<br>
+                    Caminhamos onde o sol nunca se atreve<br>
+                    Com as mãos entrelaçadas<br>
+                    Silêncio diz<br>
+                    Que a vida é breve<br>
+                    Mas o amor sempre quis<br><br>
+
+                    <strong>[Refrão]</strong><br>
+                    No topo estaremos juntas<br>
+                    Aqui e para todo o sempre<br>
+                    As pedras não nos quebram<br>
+                    O céu nos guarda<br>
+                    Tão imenso<br><br>
+
+                    <strong>[Verso 2]</strong><br>
+                    A lua vigia nossos passos lentos<br>
+                    Cada estrela um segredo do tempo<br>
+                    As sombras dançam com nossos pés<br>
+                    E o eco responde o que a alma crê<br>
+                    Se cairmos<br>
+                    O mundo nos ergue<br>
+                    Na linha do horizonte<br>
+                    O destino segue<br><br>
+
+                    <strong>[Pré-refrão]</strong><br>
+                    Não há medo<br>
+                    Só o som do vento<br>
+                    Cada respiração<br>
+                    Um juramento<br><br>
+
+                    <strong>[Refrão]</strong><br>
+                    No topo estaremos juntas<br>
+                    Aqui e para todo o sempre<br>
+                    As pedras não nos quebram<br>
+                    O céu nos guarda<br>
+                    Tão imenso<br><br>
+
+                    <strong>[Bridge]</strong><br>
+                    Os rios sussurram<br>
+                    O que já sabemos<br>
+                    Na correnteza<br>
+                    Nossos nomes escrevemos<br>
+                    O tempo<br>
+                    Um velho<br>
+                    Com olhos cansados<br>
+                    Nos vê subir<br>
+                    Seus dias contados
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Música 5 -->
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span data-bs-toggle="collapse" data-bs-target="#detalhe5" style="cursor:pointer;">
+                <strong>5.</strong> Sorriso Solitário – Henrique
+              </span>
+              <audio controls>
+                <source src="audio/Sorriso Solitário_img05.mp3" type="audio/mpeg">
+              </audio>
+            </li>
+            <div class="collapse mt-3" id="detalhe5">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="img/img05.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-8">
+                  <h5>Letra da Música</h5>
+                  <p>
+                    <strong>[Verso]</strong><br>
+                    Atrás do sorriso que brilha no rosto<br>
+                    Um eco vazio<br>
+                    Um mundo sem gosto<br>
+                    Ajudo<br>
+                    Dou tudo<br>
+                    Mas quem olha pra mim<br>
+                    No espelho vejo um estranho<br>
+                    Um fim sem começo assim<br><br>
+
+                    <strong>[Refrão]</strong><br>
+                    Sou bondoso<br>
+                    Sou perdido<br>
+                    Por dentro calado<br>
+                    Por fora um ruído<br>
+                    Nunca achei o par<br>
+                    O encaixe perfeito<br>
+                    O amor me escapa<br>
+                    Deixa só o peito<br><br>
+
+                    <strong>[Verso 2]</strong><br>
+                    Caminho sozinho<br>
+                    Sombras a me guiar<br>
+                    Na multidão<br>
+                    Ninguém pra me abraçar<br>
+                    Um coração cansado de tanto esperar<br>
+                    Um som distante<br>
+                    Um sonho a se apagar<br><br>
+
+                    <strong>[Refrão]</strong><br>
+                    Sou bondoso<br>
+                    Sou perdido<br>
+                    Por dentro calado<br>
+                    Por fora um ruído<br>
+                    Nunca achei o par<br>
+                    O encaixe perfeito<br>
+                    O amor me escapa<br>
+                    Deixa só o peito<br><br>
+
+                    <strong>[Bridge]</strong><br>
+                    Escondo a dor num sorriso disfarçado<br>
+                    Ninguém percebe<br>
+                    Ninguém ao meu lado<br>
+                    E se um dia o sol brilhar pra mim<br>
+                    Talvez descubra o que há no meu fim<br><br>
+
+                    <strong>[Refrão]</strong><br>
+                    Sou bondoso<br>
+                    Sou perdido<br>
+                    Por dentro calado<br>
+                    Por fora um ruído<br>
+                    Nunca achei o par<br>
+                    O encaixe perfeito<br>
+                    O amor me escapa<br>
+                    Deixa só o peito
+                  </p>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div>
+
+        <!-- Coluna direita: carrossel Mais acessadas -->
+        <div class="col-md-5">
+          <div id="carouselCapas" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active"><img src="img/img01.jpg" class="d-block w-100 capa-carrossel"
+                  alt="Capa 1"></div>
+              <div class="carousel-item"><img src="img/img02.jpg" class="d-block w-100 capa-carrossel" alt="Capa 2">
+              </div>
+              <div class="carousel-item"><img src="img/img03.jpg" class="d-block w-100 capa-carrossel" alt="Capa 3">
+              </div>
+              <div class="carousel-item"><img src="img/img04.jpg" class="d-block w-100 capa-carrossel" alt="Capa 4">
+              </div>
+              <div class="carousel-item"><img src="img/img05.jpg" class="d-block w-100 capa-carrossel" alt="Capa 5">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselCapas" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselCapas" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Segunda linha: Outras músicas -->
+      <div class="row mb-5 align-items-start">
+        <!-- Coluna esquerda -->
+        <div class="col-md-7">
+          <h4 class="mb-3">🎧 Outras músicas</h4>
+          <ul class="list-group mb-4">
+            <!-- Música 6 -->
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span data-bs-toggle="collapse" data-bs-target="#detalhe6" style="cursor:pointer;">
+                <strong>6.</strong> Alegria no Ar – Henrique
+              </span>
+              <audio controls>
+                <source src="audio/Alegria no Ar_img06.mp3" type="audio/mpeg">
+              </audio>
+            </li>
+            <div class="collapse mt-3" id="detalhe6">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="img/img06.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-8">
+                  <h5>Letra da Música</h5>
+                  <p>
+                    <strong>[Verso]</strong><br>
+                    O sol brinca nas folhas do quintal<br>
+                    Sorrisos se cruzam<br>
+                    É quase ritual<br>
+                    O cheiro do café<br>
+                    Tão familiar<br>
+                    Lembra histórias que o tempo quis guardar<br><br>
+
+                    <strong>[Pré-refrão]</strong><br>
+                    O vento canta<br>
+                    A tarde dança<br>
+                    E cada nota traz esperança<br><br>
+
+                    <strong>[Refrão]</strong><br>
+                    Alegria no ar<br>
+                    Não dá pra segurar<br>
+                    Velhas memórias vêm pra nos abraçar<br>
+                    Canta alto<br>
+                    Sente o som<br>
+                    Deixa levar<br>
+                    Alegria no ar<br>
+                    Só quero celebrar<br><br>
+
+                    <strong>[Verso 2]</strong><br>
+                    Um passo no chão<br>
+                    Outro no coração<br>
+                    O tempo passa<br>
+                    Mas fica a canção<br>
+                    Amigos chegando<br>
+                    Risadas no portão<br>
+                    Trazem consigo momentos de emoção<br><br>
+
+                    <strong>[Pré-refrão]</strong><br>
+                    A lua espreita<br>
+                    A noite aceita<br>
+                    E cada verso aquece a receita<br><br>
+
+                    <strong>[Refrão]</strong><br>
+                    Alegria no ar<br>
+                    Não dá pra segurar<br>
+                    Velhas memórias vêm pra nos abraçar<br>
+                    Canta alto<br>
+                    Sente o som<br>
+                    Deixa levar<br>
+                    Alegria no ar<br>
+                    Só quero celebrar
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Música 7 -->
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span data-bs-toggle="collapse" data-bs-target="#detalhe7" style="cursor:pointer;">
+                <strong>7.</strong> Liberdade é Minha Escolha – Henrique
+              </span>
+              <audio controls>
+                <source src="audio/Liberdade é Minha Escolha_img07.mp3" type="audio/mpeg">
+              </audio>
+            </li>
+            <div class="collapse mt-3" id="detalhe7">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="img/img07.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-8">
+                  <h5>Letra da Música</h5>
+                  <p>
+                    <strong>[Verso]</strong><br>
+                    Céu aberto mas nuvem pesa<br>
+                    Caminho longo sem promessa<br>
+                    A estrada grita meu nome<br>
+                    Só eu sei o que me consome<br><br>
+
+                    <strong>[Refrão]</strong><br>
+                    Liberdade é minha escolha<br>
+                    Grito alto ninguém recolha<br>
+                    Minha vida minha razão<br>
+                    Não me prenda não há prisão<br><br>
+
+                    <strong>[Verso 2]</strong><br>
+                    Chão rachado sol queimando<br>
+                    O vento sopra sigo andando<br>
+                    Não há sombra que me pare<br>
+                    Nem corrente que me amarre<br><br>
+
+                    <strong>[Pré-refrão]</strong><br>
+                    Olha pra mim tenta entender<br>
+                    Eu não vou me perder<br><br>
+
+                    <strong>[Refrão]</strong><br>
+                    Liberdade é minha escolha<br>
+                    Grito alto ninguém recolha<br>
+                    Minha vida minha razão<br>
+                    Não me prenda não há prisão<br><br>
+
+                    <strong>[Bridge]</strong><br>
+                    E se cair vou levantar<br>
+                    O peso eu vou carregar<br>
+                    Cicatriz é meu troféu<br>
+                    Meu limite é o céu
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Música 8 -->
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span data-bs-toggle="collapse" data-bs-target="#detalhe8" style="cursor:pointer;">
+                <strong>8.</strong> Wild Horses – Henrique
+              </span>
+              <audio controls>
+                <source src="audio/Wild Horses_img08.mp3" type="audio/mpeg">
+              </audio>
+            </li>
+            <div class="collapse mt-3" id="detalhe8">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="img/img08.png" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-8">
+                  <h5>Letra da Música</h5>
+                  <p>
+                    <strong>[Verso]</strong><br>
+                    Feet pounding dust hearts like a drum<br>
+                    The sun’s a witness to where we run<br>
+                    Breath like thunder sharp and wild<br>
+                    The wind’s our mother we’re her child<br><br>
+
+                    <strong>[Pré-refrão]</strong><br>
+                    No reins no chains just open skies<br>
+                    We break the edge we never die<br><br>
+
+                    <strong>[Refrão]</strong><br>
+                    Wild horses running free<br>
+                    We are the mirror of what can be<br>
+                    No walls no ties no gravity<br>
+                    Wild horses wild and free<br><br>
+
+                    <strong>[Verso 2]</strong><br>
+                    Eyes like fire staring wide<br>
+                    The world a canvas no place to hide<br>
+                    Mountains whisper rivers scream<br>
+                    We’re the heartbeat of every dream<br><br>
+
+                    <strong>[Pré-refrão]</strong><br>
+                    No borders no fear just endless ground<br>
+                    We chase the echo of freedom’s sound<br><br>
+
+                    <strong>[Refrão]</strong><br>
+                    Wild horses running free<br>
+                    We are the mirror of what can be<br>
+                    No walls no ties no gravity<br>
+                    Wild horses wild and free
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Música 9 -->
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span data-bs-toggle="collapse" data-bs-target="#detalhe9" style="cursor:pointer;">
+                <strong>9.</strong> O Amor Sempre Será a Minha Força – Henrique
+              </span>
+              <audio controls>
+                <source src="audio/O Amor Sempre Será a Minha Força_img09.mp3" type="audio/mpeg">
+              </audio>
+            </li>
+            <div class="collapse mt-3" id="detalhe9">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="img/img09.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-8">
+                  <h5>Letra da Música</h5>
+                  <p>
+                    <strong>[Verso]</strong><br>
+                    Quando o dia escurece sem avisar<br>
+                    E o vento canta sem parar<br>
+                    Eu sinto o calor<br>
+                    O teu calor<br><br>
+
+                    <strong>[Pré-refrão]</strong><br>
+                    Luz que guia<br>
+                    Sempre brilha<br>
+                    Mesmo na sombra<br>
+                    És a ilha<br><br>
+
+                    <strong>[Refrão]</strong><br>
+                    O amor sempre será a minha força<br>
+                    A chama que nunca se apaga<br>
+                    Meu norte<br>
+                    Meu chão<br>
+                    Minha rota<br><br>
+
+                    <strong>[Verso 2]</strong><br>
+                    Nos teus braços<br>
+                    Tudo é tão sereno<br>
+                    Como o mar sussurrando em segredo<br>
+                    O tempo para<br>
+                    O mundo é pequeno<br><br>
+
+                    <strong>[Refrão]</strong><br>
+                    O amor sempre será a minha força<br>
+                    A chama que nunca se apaga<br>
+                    Meu norte<br>
+                    Meu chão<br>
+                    Minha rota<br><br>
+
+                    <strong>[Bridge]</strong><br>
+                    Se eu cair<br>
+                    Tu me ergues<br>
+                    Se eu chorar<br>
+                    Tu me serves<br>
+                    Como a água que mata a sede
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Música 10 -->
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              <span data-bs-toggle="collapse" data-bs-target="#detalhe10" style="cursor:pointer;">
+                <strong>10.</strong> Sob o Céu Estrelado – Henrique
+              </span>
+              <audio controls>
+                <source src="audio/Sob o Céu Estrelado_img10.mp3" type="audio/mpeg">
+              </audio>
+            </li>
+            <div class="collapse mt-3" id="detalhe10">
+              <div class="row">
+                <div class="col-md-4">
+                  <img src="img/img10.jpg" class="img-fluid rounded shadow">
+                </div>
+                <div class="col-md-8">
+                  <h5>Letra da Música</h5>
+                  <p>
+                    <strong>[Verso]</strong>
+                    Como são belas as estrelas<br>
+                    Dançam no alto tão serenas<br>
+                    Um quadro vivo<br>
+                    Pintado no ar<br><br>
+
+                    Brilham fortes<br>
+                    Brilham mansas<br>
+                    Cada uma com suas danças<br>
+                    Um segredo que não vão contar<br><br>
+
+                    <strong>[Refrão]</strong>
+                    Sob o céu estrelado<br>
+                    O mundo fica calado<br>
+                    E o coração<br>
+                    Encantado<br>
+                    Quer voar<br><br>
+
+                    <strong>[Verso 2]</strong>
+                    As constelações me chamam<br>
+                    Sussurram nomes<br>
+                    Me inflamam<br>
+                    Histórias antigas no brilho a girar<br><br>
+
+                    A lua esconde um sorriso <br>
+                    Mostra o caminho preciso<br>
+                    E eu sigo sem querer voltar <br><br>
+
+                    <strong>[Refrão]</strong>
+                    Sob o céu estrelado
+                    O mundo fica calado
+                    E o coração
+                    Encantado
+                    Quer voar
+                  </p>
+                </div>
+              </div>
+            </div>
+          </ul>
+        </div>
+
+        <!-- Coluna direita: carrossel Outras músicas -->
+        <div class="col-md-5">
+          <div id="carouselOutras" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active"><img src="img/img06.jpg" class="d-block w-100 capa-carrossel"
+                  alt="Capa 6"></div>
+              <div class="carousel-item"><img src="img/img07.jpg" class="d-block w-100 capa-carrossel" alt="Capa 7">
+              </div>
+              <div class="carousel-item"><img src="img/img08.png" class="d-block w-100 capa-carrossel" alt="Capa 8">
+              </div>
+              <div class="carousel-item"><img src="img/img09.jpg" class="d-block w-100 capa-carrossel" alt="Capa 9">
+              </div>
+              <div class="carousel-item"><img src="img/img10.jpg" class="d-block w-100 capa-carrossel" alt="Capa 10">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselOutras" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselOutras" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section> <!-- Sobre -->
+  <section id="sobre" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Sobre o Projeto</h2>
+      <p class="text-center"> Este site foi criado utilizando Inteligência Artificial: <strong>Leonardo AI</strong> para
+        as imagens e <strong>Suno AI</strong> para as músicas e letras. O objetivo é explorar a criatividade da IA em
+        diferentes estilos musicais. </p>
+    </div>
+  </section> <!-- Contato -->
+  <section id="contato" class="bg-dark text-light py-5">
+    <div class="container">
+      <h2 class="text-center text-danger mb-4">📩 Contato</h2>
+      <form class="col-md-6 mx-auto">
+        <div class="mb-3"> <label for="mensagem" class="form-label">Mensagem</label> <textarea class="form-control"
+            id="mensagem" placeholder="Digite a sua sugestão de música" rows="3"></textarea> </div> <button
+          type="submit" class="btn btn-primary w-100">Enviar</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="text-light text-center p-3">
+    <p class="mb-0">© 2025 Top Music - Criado com Leonardo AI & Suno AI</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
